@@ -37,6 +37,7 @@ name = "aria-travel-agent"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "colorama" },
     { name = "ipykernel" },
     { name = "langchain" },
     { name = "langchain-ollama" },
@@ -46,6 +47,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "colorama", specifier = ">=0.4.6" },
     { name = "ipykernel", specifier = "==6.30.1" },
     { name = "langchain", specifier = ">=1.2.4" },
     { name = "langchain-ollama", specifier = ">=1.0.1" },
